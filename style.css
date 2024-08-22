@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.fondo-wallper {
+    display: flex;
+    position: fixed;
+    z-index: -1;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-dado {
+    display: flex;
+    height: 230px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 10;
+    font-size: 35px;
+    line-height: 38px;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 26px;
+}
+
+.caixa-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    background: rgba(51, 49, 49, 0.25);
+    border: 1px solid rgba(59, 55, 55, 0.2);
+    border-radius: 14px;
+    height: 70px;
+    width: 200px;
+    display: flex;
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 47px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.input-min {
+    margin-right: 62px;
+}
+
+::placeholder {
+    color: #000000;
+
+
+}
+
+.button-sortear {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button {
+    background: #AEC346;
+    box-shadow: 0px 18px 40px rgb(177, 204, 40);
+    border-radius: 10px;
+    width: 200px;
+    height: 72px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 45px;
+    margin-top: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.8;
+}
+
+.caixa-resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    cursor: pointer;
+}
+
+.resultado {
+    background: rgba(51, 49, 49, 0.25);
+    border: 1px solid rgba(59, 55, 55, 0.2);
+    border-radius: 14px;
+    height: 80px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 750;
+    font-size: 65px;
+    line-height: 47px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.img-devclub {
+    display: flex;
+    position: fixed;
+    left: 20px;
+    bottom: 10px;
+    height: 60px;
+    cursor: pointer;
+}
